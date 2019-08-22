@@ -1,5 +1,5 @@
 title: Katrin Snell | Pet Portrait and Wildlife Artist
-baseurl: /blog
+baseurl: /
 permalink: '/:title/'
 layout_style: grid
 palette: black
