@@ -1,19 +1,95 @@
-<footer id="colophon" class="site-footer">
-  <div class="inner">
-    <div class="site-footer-inside">
-      <p class="site-info">
-        {{ site.footer.content }}
-        &nbsp;
-        {% for link in site.footer.links %}
-        <a href="{{ link.url }}" {% assign new_window_is_not_empty = link.new_window | is_not_empty %}
-          {% if new_window_is_not_empty %}target="_blank" rel="noopener"
-          {% endif %}>{{ link.text }}</a>.
-        {% endfor %}
-      </p><!-- .site-info -->
-      {% assign has_social_is_not_empty = site.footer.has_social | is_not_empty %}
-      {% if has_social_is_not_empty %}
-        {% include social.html %}
-      {% endif %}
-    </div><!-- .site-footer-inside -->
-  </div><!-- .inner -->
-</footer><!-- .site-footer -->
+<footer>
+  <div id="footer" class="container">
+    <div class="content_footer_top"></div>
+     <div class="row">
+      <div class="content_footer_left"></div>
+            <div class="col-sm-3 column">
+        <h5>Information</h5>
+        <ul class="list-unstyled">
+                   <li><a href="https://katrinsnellartist.co.uk/about_us">About</a></li>
+                    <li><a href="https://katrinsnellartist.co.uk/delivery">Delivery Information</a></li>
+                    <li><a href="https://katrinsnellartist.co.uk/privacy">Privacy Policy</a></li>
+                    <li><a href="https://katrinsnellartist.co.uk/terms">Terms &amp; Conditions</a></li>
+                  </ul>
+      </div>
+            <!-- <div class="col-sm-3 column">
+        <h5>Customer Service</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=information/contact">Contact Us</a></li>
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=account/return/add">Returns</a></li>
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=information/sitemap">Site Map</a></li>
+        </ul>
+      </div> -->
+      <div class="col-sm-3 column">
+        <h5>Extras</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=product/manufacturer">Brands</a></li>
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=account/voucher">Gift Certificates</a></li>
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=affiliate/login">Affiliate</a></li>
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=product/special">Specials</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3 column">
+        <h5>My Account</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=account/account">My Account</a></li>
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=account/order">Order History</a></li>
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=account/wishlist">Wish List</a></li>
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=account/newsletter">Newsletter</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3 column content_footer_right"><h2></h2><div>  <div id="block_contact_infos"><h5>Contact</h5><ul>
+<li class="contact">Tel 07967 763308</li>
+<li class="addresses">Email <a href="mailto:kj_85@outlook.com">kj_85@outlook.com</a></li>
+</ul>
+</div>
+<div class="social_block column" id="social_block"><h5>Follow us</h5>
+<ul>
+<li class="facebook"><a href="https://www.facebook.com/pg/Katrinspetportraits/">Facebook</a></li>
+<li class="twitter"><a href="https://twitter.com/katrinsnellart">Twitter</a></li>
+</ul>
+</div></div>
+
+</div>
+    </div>
+  </div>
+</footer>
+<div class="footer-bottom">
+<div class="footer_shadow container">
+  <div id="bottomfooter">
+  <ul>
+    <li><a href="https://katrinsnellartist.co.uk/index.php?route=product/special">Specials</a></li>
+    <li><a href="https://katrinsnellartist.co.uk/index.php?route=affiliate/login">Affiliate</a></li>
+    <li><a href="https://katrinsnellartist.co.uk/index.php?route=account/voucher">Gift Certificates</a></li>
+    <li><a href="https://katrinsnellartist.co.uk/index.php?route=product/manufacturer">Brands</a></li>
+    <li><a href="https://katrinsnellartist.co.uk/index.php?route=account/return/add">Returns</a></li>
+    <li><a href="https://katrinsnellartist.co.uk/index.php?route=information/sitemap">Site Map</a></li>
+    <li class="contact"><a href="https://katrinsnellartist.co.uk/index.php?route=information/contact">Contact Us</a></li>
+  </ul>
+  </div>
+  
+  <div id="powered">Katrin Snell | Pet Portrait and Wildlife Artist © 2019</div>
+  
+  
+<div class="content_footer_bottom">
+<div>  <div class="payment_logo">
+<div class="image_logo"><a href=""><img src="https://katrinsnellartist.co.uk/image/catalog/payment-3.jpg"></a>
+<a class="logo2" href=""><img src="https://katrinsnellartist.co.uk/image/catalog/payment-2.jpg"></a>
+<a href=""><img src="https://katrinsnellartist.co.uk/image/catalog/payment-1.jpg"></a></div>
+</div></div>
+
+
+</div>
+</div>
+</div>
+<script type="text/javascript" id="cookieinfo"
+  src="//cookieinfoscript.com/js/cookieinfo.min.js"
+  data-bg="#645862"
+  data-fg="#FFFFFF"
+  data-link="#F1D600"
+  data-cookie="CookieInfoScript"
+  data-text-align="left"
+       data-close-text="Got it!">>
+</script>
+
+</body></html>

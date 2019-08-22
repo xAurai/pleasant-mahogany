@@ -2,11 +2,6 @@
 layout: body
 ---
 
-  {% for section in page.sections %}
-    
-    {% include {{ section.component }} section=section site=site %}
-  {% endfor %}
-
   <div class="post-feed">
     {% assign display_posts = '/posts' | get_pages | sort: 'date' | reverse %}
     {% for post in display_posts %}

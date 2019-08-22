@@ -1,23 +1,25 @@
-title: Stackbit Ampersand Theme
-baseurl: /
+title: Katrin Snell | Pet Portrait and Wildlife Artist
+baseurl: /blog
 permalink: '/:title/'
 layout_style: grid
-palette: green
+palette: black
 header:
-  title: Ampersand
-  logo_img: images/logo.png
   has_nav: true
+  logo_img: ''
+  title: Katrin Snell
 footer:
-  content: '&copy; Stackbit-Ampersand. All rights reserved.'
-  links:
-    - text: Made with Stackbit
-      url: 'https://www.stackbit.com'
-      new_window: true
+  content: >-
+    &copy; Pet Portrait and Wildlife Artist by Katrin Snell. All rights
+    reserved.
   has_social: true
+  links:
+    - new_window: true
+      text: Pet Portrait and Wildlife Artist by Katrin Snell
+      url: 'https://katrinsnellartist.co.uk/'
 sass:
   indentWidth: 4
-  style: nested
   precision: 10
+  style: nested
 plugins:
   - jekyll-menus
 exclude:
@@ -32,8 +34,3 @@ exclude:
   - LICENSE.md
   - README.md
   - netlify.toml
-  - stackbit-build.sh
-  - stackbit-pull.js
-collections:
-  posts:
-    permalink: '/posts/:title/'

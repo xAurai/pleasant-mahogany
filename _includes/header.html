@@ -1,40 +1,42 @@
-<header id="masthead" class="site-header">
-  <div class="inner">
-    <div class="site-header-inside">
+<style type="text/css">footer a{border-bottom:none!important}</style>
+<nav id="top">
+  <div class="container">
 
-      <div class="site-branding">
-        {% assign logo_img_is_not_empty = site.header.logo_img | is_not_empty %}
-        {% if logo_img_is_not_empty %}
-        <p class="site-logo">
-          <a href='{{ '/' | relative_url }}'><img src="{{ site.header.logo_img | relative_url }}"
-              alt="Logo" /></a>
-        </p>
-        {% endif %}
-        {% if page.layout == 'home' %}
-        <h1 class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></h1>
-        {% else %}
-        <p class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></p>
-        {% endif %}
-      </div><!-- .site-branding -->
+    <div id="top-links" class="nav pull-right">
+      <ul class="list-inline">
+        <li class="menu-item"><a href="https://katrinsnellartist.co.uk/index.php?route=common/home">Back to Store</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="logo"><a href="https://katrinsnellartist.co.uk/index.php?route=common/home"><img src="https://katrinsnellartist.co.uk/image/catalog/logo.png" title="Katrin Snell | Pet Portrait and Wildlife Artist" alt="Katrin Snell | Pet Portrait and Wildlife Artist" class="img-responsive" /></a></div>
+      </div>
+      <div class="content_headercms_top"></div>
 
-      {% if site.menus.main and site.header.has_nav %}
-      <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
-        <div class="site-nav-inside">
-          <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Menu</span><span class="icon-close"
-              aria-hidden="true"></span></button>
-          <ul class="menu">
-            {% for item in site.menus.main %}
-            <li class="menu-item {% if page.url == item.url %} current-menu-item{% endif %}">
-              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            </li>
-            {% endfor %}
-          </ul><!-- .menu -->
-        </div><!-- .site-nav-inside -->
-      </nav><!-- .site-navigation -->
-      <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Menu</span><span class="icon-menu"
-          aria-hidden="true"></span></button>
-      {% endif %}
+    </div>
+  </div>
+</header>
+<nav class="nav-container" role="navigation">
+  <div class="nav-inner">
+    <div class="container">
+      <!-- ======= Menu Code START ========= -->
+      <!-- Opencart 3 level Category Menu-->
+      <div id="menu" class="main-menu">
+        <div class="nav-responsive"><span>Menu</span><div class="expandable"></div></div>
 
-    </div><!-- .site-header-inside -->
-  </div><!-- .inner -->
-</header><!-- .site-header -->
+        <ul class="main-navigation">
+          <li class="menu-item"><a href="https://katrinsnellartist.co.uk/index.php?route=common/home">Back to Store</a></li>
+          <!-- <li><a href="/blog/">Blog</a></li> -->
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=information/information&information_id=8">Events</a></li>
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=information/information&information_id=10">Press</a></li>
+          <li><a href="https://katrinsnellartist.co.uk/index.php?route=information/contact">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</nav>
