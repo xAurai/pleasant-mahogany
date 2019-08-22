@@ -36,5 +36,3 @@ fields:
   default: post
   config:
     required: true
-pages:
-- _posts/title-of-the-post.md
