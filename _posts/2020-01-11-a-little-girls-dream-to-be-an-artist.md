@@ -3,15 +3,20 @@ layout: post
 title: 'A little girls dream to be an Artist '
 subtitle: How it all began...........
 date: 2020-01-11 08:00:00 +0000
-thumb_img_path: ''
-content_img_path: ''
-excerpt: ''
+thumb_img_path: "/images/DD264482-23DA-45FD-A6A1-658675952A37.jpeg"
+content_img_path: "/images/E196126F-0DFD-44C8-8860-F39692D2A36F.jpeg"
+excerpt: This is my first blog post...  Well first let me introduce myself to you,
+  I am Katrin, wife to Matt (a fire fighter), mother to our three boys George `8 and
+  6 year old twins Jacob and Harry, and two springer spaniels Alfie 11 and Barney
+  6. We live in Somerset close to the Quantock hills and Exmoor. 2 years ago I decided
+  to give my artwork a proper chance before I got stuck taking more hours on at work.
 
 ---
 This is my first blog post...
 
-Well first let me introduce myself to you, I am Katrin Snell, wife to a fire fighter, mother to three boys an 8 year old and 6 year old twins, and two springer spaniels Alfie 11 and Barney 6.   
-We live in Somerset close to the Quantock hills and Exmoor. 2 years ago I decided to give my artwork a proper chance before I got stuck taking more hours on at work. I think this was one of the best decisions that I have ever made, I am so much happier now and our family life is so much better.
+Well first let me introduce myself to you, I am Katrin, wife to Matt (a fire fighter), mother to our three boys George \`8 and 6 year old twins Jacob and Harry, and two springer spaniels Alfie 11 and Barney 6.   
+We live in Somerset close to the Quantock hills and Exmoor.   
+2 years ago I decided to give my artwork a proper chance before I got stuck taking more hours on at work. I think this was one of the best decisions that I have ever made, I am so much happier now and our family life is so much better.
 
 So how did I become an Artist? I always get asked where I trained or was I self taught? Well even though I went to college and studied fine art and graphics I consider myself self taught, I was born an artist.
 
